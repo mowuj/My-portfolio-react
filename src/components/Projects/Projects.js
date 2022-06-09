@@ -10,7 +10,7 @@ const Projects = () => {
         AOS.init({duration:2000})
     },[])
     return (
-        <div className='projects p-5'>
+        <div className='projects p-5' id='projects'>
             <div className='projectText pt-5'>
                 <h3>MY <span>PROJECTS</span></h3> <br />
                 <hr />

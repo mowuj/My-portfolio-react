@@ -6,7 +6,7 @@ import ahsan2 from '../../images/ahsan2.jpg'
 import './Home.css'
 const Home = () => {
     return (
-        <div className='w-100 home bg-black'>
+        <div className='w-100 home bg-black text-white' id='home'>
             <div className='container'>
                 <div className='row pt-5'>
                     <div className='col-12 col-md-6 col-lg-6 homeText'>
@@ -18,7 +18,7 @@ const Home = () => {
                                         autoStart: true,
                                         loop: true,
                                         delay: 60,
-                                        strings:["I AM WEB DEVELOPER","I AM WEB DESIGNER"]
+                                        strings:["I AM AHSAN HABIB","I AM WEB A DEVELOPER"]
                                 }}
                                 />
                             </h1>

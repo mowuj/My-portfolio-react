@@ -9,9 +9,6 @@
     align-items: center;
 }
 .banner-img{
-    /* width: 600px;
-    height: 700px;
-    border-radius: 50%; */
     width: 90%;
 }
 .welcome{
@@ -23,7 +20,7 @@
 
 }
 .icons {
-    font-size: 20px;
+    font-size: 30px;
     padding: 0 10px;
 }
 .icons:hover{

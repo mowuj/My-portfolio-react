@@ -8,7 +8,7 @@ const About = () => {
         AOS.init({duration:2000})
     },[])
     return (
-        <div className=' w-100 about pt-5'>
+        <div className=' w-100 about pt-5' id='about'>
             <div className='container'>
             <div className='row p-5'>
                 <div className='col-12 col-md-6 col-lg-6 aboutImg' data-aos="fade-right">
@@ -49,8 +49,9 @@ const About = () => {
                                     <td>: ahsan.habib141710@gmail.com</td>
                                 </tr>
                             </tbody>
-                        </table>
-                        <button className='btn downloadCv mt-4'>Download Resume</button>
+                            </table>
+                            <a href="https://drive.google.com/file/d/1tVlUyb2E-7hiXvct_ZAymKfITSVW-i5Y/view?usp=sharing" download><button className='btn downloadCv mt-4'>Download Resume</button></a>
+                        
                     </div>
                 </div>
                 </div>

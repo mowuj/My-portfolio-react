@@ -1,13 +1,34 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Contact.css'
+import emailjs from '@emailjs/browser';
 const Contact = () => {
+    const refForm = useRef()
+    const sendEmail = (e) => {
+        e.preventDefault()
+        emailjs
+        .sendForm(
+        'service_2fy61xw',
+            'template_i4c83fd',
+            refForm.current,
+        'ziV7sr-nXcIQmdbXE'
+        )
+            .then(
+                () => {
+                    alert('Message Successfully sent!')
+                    window.location.reload(false)
+                },
+                () => {
+                    alert('Failed to send message,Please try again')
+                }
+        )
+    }
     return (
         <div className='contact text-center text-white'>
             <br /> <h1>Contact</h1> <hr />
 
             <hr />
             <div className='mx-md-auto text-center container'>
-                <form >
+                <form className='contact-form' ref={refForm} onSubmit={sendEmail}>
                     <div className='form-group mt-2'>
                         <label htmlFor="Uname">User Name:</label>
                         <input type="text" className='form-control' name="" id="Uname" placeholder='Enter Name' />
@@ -20,12 +41,13 @@ const Contact = () => {
                         <label htmlFor="message">Message:</label>
                         <textarea className='form-control' name="" id="" placeholder='Message' cols="30" rows="10"></textarea>
                     </div>
-                    <button type='button' className='btn mt-2'>Message Me</button>
+                    
+                    <button type='submit' className='btn mt-2'>SEND</button>
                 </form>
                 
             </div>
         </div>
     );
 };
-
+// emailjs pass---*bTfN*m5B4M?uaA
 export default Contact;
