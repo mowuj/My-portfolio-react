@@ -6,7 +6,7 @@ import ahsan2 from '../../images/ahsan2.jpg'
 import './Home.css'
 const Home = () => {
     return (
-        <div className='w-100 home'>
+        <div className='w-100 home bg-black'>
             <div className='container'>
                 <div className='row pt-5'>
                     <div className='col-12 col-md-6 col-lg-6 homeText'>
