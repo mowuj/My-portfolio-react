@@ -2,6 +2,9 @@
     background-color: black;
     
 }
+.aboutImg img{
+    border-radius: 30%;
+}
 .aboutText{
     display: flex;
     align-items: center;

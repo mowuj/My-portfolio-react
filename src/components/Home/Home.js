@@ -2,7 +2,8 @@ import React from 'react';
 import TypeWriter from 'typewriter-effect'
 import { FaGithub,FaFacebook,FaLinkedin } from 'react-icons/fa';
 import ahsan1 from '../../images/ahsan1.png'
-import ahsan2 from '../../images/ahsan2.jpg'
+import mowuj2 from '../../images/mowuj2.jpg'
+
 import './Home.css'
 const Home = () => {
     return (
@@ -18,7 +19,7 @@ const Home = () => {
                                         autoStart: true,
                                         loop: true,
                                         delay: 60,
-                                        strings:["I AM AHSAN HABIB","I AM WEB A DEVELOPER"]
+                                        strings:["I AM AHSAN HABIB","I AM A WEB DEVELOPER"]
                                 }}
                                 />
                             </h1>
@@ -33,7 +34,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='col-12 col-md-6 col-lg-6 homeImg'>
-                        <img className='banner-img' src={ahsan1} alt="ahsan" />
+                        <img className='banner-img w-75  ms-5' src={mowuj2} alt="ahsan" />
                     </div>
                         
                 </div>

@@ -28,7 +28,7 @@ const Contact = () => {
 
             <hr />
             <div className='mx-md-auto text-center container'>
-                <form className='contact-form' ref={refForm} onSubmit={sendEmail}>
+                <form className='contact-form ' ref={refForm} onSubmit={sendEmail}>
                     <div className='form-group mt-2'>
                         <label htmlFor="Uname">User Name:</label>
                         <input type="text" className='form-control' name="" id="Uname" placeholder='Enter Name' />
@@ -42,7 +42,7 @@ const Contact = () => {
                         <textarea className='form-control' name="" id="" placeholder='Message' cols="30" rows="10"></textarea>
                     </div>
                     
-                    <button type='submit' className='btn mt-2'>SEND</button>
+                    <button type='submit' className='btn mt-2 mb-2'>SEND</button>
                 </form>
                 
             </div>
