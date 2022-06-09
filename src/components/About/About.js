@@ -8,7 +8,7 @@ const About = () => {
         AOS.init({duration:2000})
     },[])
     return (
-        <div className=' w-100 about '>
+        <div className=' w-100 about pt-5'>
             <div className='container'>
             <div className='row p-5'>
                 <div className='col-12 col-md-6 col-lg-6 aboutImg' data-aos="fade-right">
