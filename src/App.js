@@ -1,4 +1,5 @@
 import './App.css';
+import Home from './components/Home/Home';
 import Header from './components/Navbar/Header';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     
     <div className="App">
       <Header></Header>
-      
+      <Home></Home>
     </div>
   );
 }
