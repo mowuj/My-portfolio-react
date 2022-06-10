@@ -20,7 +20,7 @@ const Projects = () => {
                 <hr />
                 <div className='container text-center mt-5'>
                     <div className='row'>
-                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="fade-right">
+                        <div className='col-12 col-md-6 col-lg-4 ' data-aos="zoom-in">
                             <div className='card text-dark'>
                                 <img className='card-img-top' src={lucky} alt="Lucky" />
                                 <div className='card-body'>
@@ -41,7 +41,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="fade-left">
+                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="zoom-in">
                             <div className='card text-dark'>
                                 <img className='card-img-top' src={car} alt="car" />
                                 <div className='card-body'>
@@ -51,7 +51,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="fade-left">
+                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="zoom-in">
                             <div className='card text-dark'>
                                 <img className='card-img-top' src={laptop} alt="social media" />
                                 <div className='card-body'>
@@ -61,18 +61,18 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="fade-left">
+                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="zoom-in">
                             <div className='card text-dark'>
                                 <img className='card-img-top' src={save} alt="social media" />
                                 <div className='card-body'>
-                                    {/* <a  href="https://github.com/mowuj"><FaGithub/></a> */}
+                                
                                     <h5 className='card-title'>Save money </h5>
                                     <p>Features: This is a calculate system base website.Calculate user saving amount.try this for you</p>
                                     <a href="" className='btn'>More Detail</a>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="fade-left">
+                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="zoom-in">
                             <div className='card text-dark'>
                                 <img className='card-img-top' src={phone} alt="social media" />
                                 <div className='card-body'>

@@ -14,7 +14,7 @@ const Services = () => {
                 <hr />
                 <div className='container text-center mt-5'>
                     <div className='row'>
-                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="fade-right">
+                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="zoom-in">
                             <div className='border service p-4'>
                                 <p className='serviceIcon'> <span className='border p-2'> <FaCode/></span></p>
                                 <h5 className='mt-4'>FRONT_END DEVELOPMENT</h5>
@@ -30,7 +30,7 @@ const Services = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="fade-left">
+                        <div className='col-12 col-md-6 col-lg-4 p-3' data-aos="zoom-in">
                             <div className='border service p-4'>
                                 <p className='serviceIcon'> <span className='border p-2'> <FaPen/></span></p>
                                 <h5 className='mt-4'>PROBLEM FIXING</h5>

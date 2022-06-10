@@ -15,10 +15,10 @@ const About = () => {
                 <h3 className='about-title text-white text-bold'>ABOUT <span>ME</span></h3> <br />
                 <hr />
             <div className='row p-5'>
-                <div className='col-12 col-md-6 col-lg-6 aboutImg' data-aos="fade-right">
-                    <img className='w-75' src={mowuj3} alt="ahsan" />
+                <div className='col-12 col-md-6 col-lg-6 aboutImg' data-aos="zoom-in">
+                    <img className='w-75 pb-3' src={mowuj3} alt="ahsan" />
                 </div>
-                <div className='col-12 col-md-6 col-lg-6 aboutText text-white' data-aos="fade-left">
+                <div className='col-12 col-md-6 col-lg-6 aboutText text-white' data-aos="zoom-in">
                     <div>
                         <h3>
                             Hello,I Am Ahsan Habib
@@ -52,7 +52,7 @@ const About = () => {
                                 </tr>
                                 <tr>
                                     <td className='pe-5'>Email</td>
-                                    <td>: ahsan.habib141710@gmail.com</td>
+                                    <td>:ahsan.habibm@gmail.com</td>
                                 </tr>
                             </tbody>
                             </table>
