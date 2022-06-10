@@ -12,19 +12,19 @@ const Home = () => {
                 <div className='row pt-5'>
                     <div className='col-12 col-md-6 col-lg-6 homeText'>
                         <div>
-                            <h3 className='welcome'>WELCOME !</h3>
+                            <h2 className='welcome'>WELCOME !</h2>
                             <h1>
                                 <TypeWriter
                                     options={{
                                         autoStart: true,
                                         loop: true,
                                         delay: 60,
-                                        strings:["I AM AHSAN HABIB","I AM A WEB DEVELOPER"]
+                                        strings:["I AM AHSAN HABIB.","I AM A WEB DEVELOPER."]
                                 }}
                                 />
                             </h1>
-                            <p>I'am Front-End developer with 5 projects experience.
-                                My expertise is to create front-end design for a website.
+                            <p>I'am Front-End developer.I’m working with React / Nodejs for about 1 years.
+                                My expertise is to create front-end design for a website and also develop.
                             </p>
                             <div className='icons'></div>
                             <a className='icons' href="https://github.com/mowuj"><FaGithub/></a>

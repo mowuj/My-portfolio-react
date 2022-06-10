@@ -1,6 +1,9 @@
 .contact{
     background-color: black;
 }
+.contact-title span{
+    color: rgb(211, 23, 111);
+}
 hr{
     background-image: -webkit-linear-gradient(left,black,white,white,black);
 }

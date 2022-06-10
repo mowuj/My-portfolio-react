@@ -23,8 +23,8 @@ const Contact = () => {
         )
     }
     return (
-        <div className='contact text-center text-white'>
-            <br /> <h1>Contact</h1> <hr />
+        <div className='contact text-center text-white '>
+            <br /> <h3 className='contact-title'>CONTACT <span>ME</span></h3> <hr />
 
             <hr />
             <div className='mx-md-auto text-center container'>

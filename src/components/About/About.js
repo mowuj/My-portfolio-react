@@ -9,8 +9,10 @@ const About = () => {
         AOS.init({duration:2000})
     },[])
     return (
-        <div className=' w-100 about' id='about'>
+        <div className=' w-100 about pt-4' id='about'>
             <div className='container'>
+                <h3 className='about-title text-white text-bold'>ABOUT <span>ME</span></h3> <br />
+                <hr />
             <div className='row p-5'>
                 <div className='col-12 col-md-6 col-lg-6 aboutImg' data-aos="fade-right">
                     <img className='w-75' src={mowuj3} alt="ahsan" />
@@ -20,13 +22,15 @@ const About = () => {
                         <h3>
                             Hello,I Am Ahsan Habib
                         </h3>
-                        <p>
+                            <p>
+                                I am a MERN Stack web developer.
                             I am passionate and extremely motivated new front-end developer.
                             I believe I stand out to my passion for continuous innovation and pushing
-                            bring forward new ideas.With my skills,I identify real-world Challenges and
-                            that bring efficiency and improvement to the lives of users and also showcase
-                            improvements can make a meaningful impact on the user and the business
-                        </p>
+                            bring forward new ideas.
+                            </p>
+                            <p>
+                                I am an expert in Rect JS, Express JS, Mongo DB, javascript, Node js, css3, responsiveness and other essential tools. I love to Develop interesting and unique design.Thank You for visiting my portfolio.
+                            </p>
                         <table>
                             <tbody>
                                 <tr>

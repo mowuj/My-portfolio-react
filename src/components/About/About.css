@@ -2,6 +2,16 @@
     background-color: black;
     
 }
+.about-title{
+    text-align: center;
+}
+.about-title span{
+    color: rgb(211, 23, 111);
+}
+hr {
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, black, white, white, black);
+}
 .aboutImg img{
     border-radius: 30%;
 }
@@ -10,7 +20,7 @@
     align-items: center;
 }
 .downloadCv{
-    color: white!important;
+    color: white !important;
     background-color: rgb(211,23,111)!important;
 }
 .downloadCv:hover{
