@@ -3,6 +3,7 @@ import TypeWriter from 'typewriter-effect'
 import { FaGithub,FaFacebook,FaLinkedin } from 'react-icons/fa';
 import ahsan1 from '../../images/ahsan1.png'
 import mowuj2 from '../../images/mowuj2.jpg'
+import { GrResume } from "react-icons/gr";
 
 import './Home.css'
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
                             <a className='icons' href="https://github.com/mowuj"><FaGithub/></a>
                             <a className='icons' href="https://web.facebook.com/profile.php?id=100076318906776"><FaFacebook/></a>
                             <a className='icons'  href="https://www.linkedin.com/in/ahsan-habib-827b6b229/"><FaLinkedin/></a>
+                            
 
                         </div>
                     </div>

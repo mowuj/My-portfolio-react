@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ahsan4 from '../../images/ashan4.png'
 import mowuj3 from '../../images/mowuj3.jpg'
+import ahsan from '../../images/ahsan.pdf'
 import './About.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -55,7 +56,7 @@ const About = () => {
                                 </tr>
                             </tbody>
                             </table>
-                            <a href="https://drive.google.com/file/d/1tVlUyb2E-7hiXvct_ZAymKfITSVW-i5Y/view?usp=sharing" download><button className='btn downloadCv mt-4'>Download Resume</button></a>
+                            <a href={ahsan} download><button className='btn downloadCv mt-4'>Download Resume</button></a>
                         
                     </div>
                 </div>
