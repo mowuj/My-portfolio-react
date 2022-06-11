@@ -6,6 +6,11 @@ import mowuj2 from '../../images/mowuj2.jpg'
 import { GrResume } from "react-icons/gr";
 
 import './Home.css'
+import About from '../About/About';
+import Services from '../Services/Services';
+import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
+
 const Home = () => {
     return (
         <div className='w-100 home bg-black text-white' id='home'>
@@ -42,6 +47,11 @@ const Home = () => {
                 </div>
             </div>
             
+            <About></About>
+      <Services></Services>
+            <Projects></Projects>
+            {/* <AllProjects></AllProjects> */}
+      <Contact></Contact>
         </div>
     );
 };
