@@ -52,7 +52,7 @@ const About = () => {
                                 </tr>
                                 <tr>
                                     <td className='pe-5'>Email</td>
-                                    <td>:ahsan.habibm@gmail.com</td>
+                                    <td>:ahsan.habibm49@gmail.com</td>
                                 </tr>
                             </tbody>
                             </table>

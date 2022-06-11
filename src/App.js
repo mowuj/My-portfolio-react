@@ -6,7 +6,8 @@ import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Header from './components/Navbar/Header';
 import Projects from './components/Projects/Projects';
-
+// https://ancient-basin-27683.herokuapp.com/
+// https://ancient-basin-27683.herokuapp.com/projects
 
 function App() {
   return (
