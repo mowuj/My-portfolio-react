@@ -5,6 +5,7 @@ import Detail from './components/Detail/Detail';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Header from './components/Navbar/Header';
+import Particle from './components/Particle/Particle';
 import Projects from './components/Projects/Projects';
 // https://ancient-basin-27683.herokuapp.com/
 // https://ancient-basin-27683.herokuapp.com/projects
@@ -13,7 +14,8 @@ function App() {
   return (
     
     <div >
-      <Header></Header>
+      <Particle></Particle>
+      {/* <Header></Header> */}
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>            
         

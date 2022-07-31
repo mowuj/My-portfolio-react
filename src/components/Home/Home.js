@@ -10,9 +10,12 @@ import About from '../About/About';
 import Services from '../Services/Services';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import Header from '../Navbar/Header';
 
 const Home = () => {
     return (
+        <div>
+        <Header></Header>
         <div className='w-100 home bg-black text-white' id='home'>
             <div className='container'>
                 <div className='row pt-5'>
@@ -52,6 +55,7 @@ const Home = () => {
             <Projects></Projects>
             {/* <AllProjects></AllProjects> */}
       <Contact></Contact>
+        </div>
         </div>
     );
 };
