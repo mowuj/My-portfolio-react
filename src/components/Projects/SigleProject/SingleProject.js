@@ -19,10 +19,10 @@ const SingleProject = ({project}) => {
                             <div className='card text-dark'>
                                 <img className='card-img-top' src={img1} alt="Lucky" />
                 <div className='card-body'>
-                    <div className='d-flex gap-2'>
-                        <a href={liveSite}>Live Site</a>
-                    <a href={clientSide}>Github(Client)</a>
-                    <a href={serverSide}>Github(Server)</a>
+                    <div className='d-flex justify-content-center gap-2'>
+                        <button className='btn more'><a  href={liveSite}>Live Site</a></button>
+                    <button className='btn more'><a href={clientSide}>Client</a></button>
+                    <button className='btn more'><a href={serverSide}>Server</a></button>
                     </div>
                                     <h5 className='card-title'>{ name}</h5>
                     <p>Features:{sDescription}

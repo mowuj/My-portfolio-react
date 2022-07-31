@@ -21,9 +21,9 @@ const Detail = () => {
                     <img className='w-full img-fluid' src={project?.img1} alt="" />
                 </div>
                 <div className='d-flex gap-4 my-4 links'>
-                    <a href={project?.liveSite}>Live Site</a>
-                    <a href={project?.clientSide}>Github(Client)</a>
-                    <a href={project?.serverSide}>Github(Server)</a>
+                    <button className='btn more'><a href={project?.liveSite}>Live Site</a></button>
+                    <button className='btn more'><a href={project?.clientSide}>Github(Client)</a></button>
+                    <button className='btn more'><a href={project?.serverSide}>Github(Server)</a></button>
                 </div>
             </div>
             <div className='row ms-5'>
